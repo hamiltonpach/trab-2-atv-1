@@ -1,1 +1,5 @@
 # trab-2-atv-1
+Esse código implementa uma pilha dinâmica utilizando uma estrutura encadeada para verificar se uma expressão está balanceada. Cada nó da pilha armazena um caractere e um ponteiro para o próximo elemento.
+Inicialmente, são definidas as operações básicas da pilha: push, que insere um elemento no topo; pop, que remove o elemento do topo; e isEmpty, que verifica se a pilha está vazia. Também há uma função chamada combina, responsável por verificar se um símbolo de abertura corresponde corretamente ao de fechamento.
+No programa principal, o usuário digita uma expressão contendo parênteses, colchetes ou chaves. O programa percorre essa string caractere por caractere. Quando encontra um símbolo de abertura, ele o empilha. Quando encontra um símbolo de fechamento, ele verifica se a pilha está vazia (o que indicaria erro) e, caso não esteja, desempilha o topo e confere se os símbolos correspondem corretamente.
+Ao final da verificação, o programa analisa se a pilha está vazia. Se estiver, significa que todos os símbolos foram corretamente balanceados e a expressão é válida. Caso contrário, a expressão é considerada inválida.
